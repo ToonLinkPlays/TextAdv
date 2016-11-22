@@ -1335,6 +1335,13 @@ public class TextAdv extends JFrame{
                         System.out.println("This is a debug feature! Please enable debug mode!");
                     }
                     break;
+                case "cloud":
+                    System.out.println("Opening web browser...");
+                    try {
+        Desktop.getDesktop().browse(new URL("https://github.com/ToonLinkPlays/TextAdv").toURI());
+    } catch (IOException | URISyntaxException e) {
+    }
+                    break;
                 //case "crash":
                 //    crashComputer();
                 //    break;
