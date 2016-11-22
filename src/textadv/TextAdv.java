@@ -1342,9 +1342,6 @@ public class TextAdv extends JFrame{
     } catch (IOException | URISyntaxException e) {
     }
                     break;
-                //case "crash":
-                //    crashComputer();
-                //    break;
                 case "map":
                     System.out.println("Opening web browser...");
                     try {
